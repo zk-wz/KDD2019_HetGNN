@@ -1,9 +1,10 @@
-<1> Introduction 
+# Introduction 
 
 code of HetGNN in KDD2019 paper: Heterogeneous Graph Neural Network 
 
+---
 
-<2> How to use
+# How to use
 
 python HetGNN.py [parameters]
 
@@ -13,8 +14,9 @@ python HetGNN.py [parameters]
 
 test data link: https://drive.google.com/file/d/1N6GWsniacaT-L0GPXpi1D3gM2LVOih-A/view?usp=sharing
 
+---
 
-<3> Data requirement
+# Data requirement
 
 a_p_list_train.txt: paper neighbor list of each author in training data
 
@@ -36,8 +38,9 @@ het_neigh_train.txt: generated neighbor set of each node by random walk with re-
 
 het_random_walk.txt: generated random walks as node sequences (corpus) for model training
 
+---
 
-<4> Model evaluation for different applications
+# Model evaluation for different applications
 
 4-1 link prediction (author-author collaboration, type-1)
 
@@ -61,7 +64,9 @@ step-2: run [venue recommendation] part in application.py to obtain evalution re
 
 step-1: run [author classification/clustering] part in application.py to obtain evalution result 
 
-<5> Others
+---
+
+# Others
 
 5-1 raw_data_process.py: raw data (academic_small.txt) processing and data preparation
 
