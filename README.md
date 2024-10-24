@@ -2,8 +2,6 @@
 
 code of HetGNN in KDD2019 paper: Heterogeneous Graph Neural Network 
 
----
-
 # How to use
 
 python HetGNN.py [parameters]
@@ -13,8 +11,6 @@ python HetGNN.py [parameters]
 #test data used in academic_test folder (academic-2 data used in this paper, T_s = 2012): (author) A_n - 28646, (paper) P_n - 21044, (venue) V_n - 18
 
 test data link: https://drive.google.com/file/d/1N6GWsniacaT-L0GPXpi1D3gM2LVOih-A/view?usp=sharing
-
----
 
 # Data requirement
 
@@ -37,8 +33,6 @@ node_net_embedding.txt: pre-trained node embedding by network embedding
 het_neigh_train.txt: generated neighbor set of each node by random walk with re-start 
 
 het_random_walk.txt: generated random walks as node sequences (corpus) for model training
-
----
 
 # Model evaluation for different applications
 
@@ -63,8 +57,6 @@ step-2: run [venue recommendation] part in application.py to obtain evalution re
 4-4 node classification/clustering (author classification/clustering)
 
 step-1: run [author classification/clustering] part in application.py to obtain evalution result 
-
----
 
 # Others
 
